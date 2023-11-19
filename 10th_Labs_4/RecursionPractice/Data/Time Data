@@ -1,0 +1,11 @@
+Fibonacci Timing Data	
+	
+n		Recursive		Looping
+10		3300			1300
+20		755100			11700
+30		7865300			18300
+40		754119400		25800
+45		7023693100		24200
+
+1) Recursion nanoseconds increase staggeringly higher than the increase for Looping.
+4) Looping is faster since it takes less nanoseconds to calculate the Fibonacci number than Recursion.

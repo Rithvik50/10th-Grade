@@ -1,0 +1,15 @@
+// A short example file
+
+private double singleTax () {
+    if (income <= 27050.0)
+        return (income * 0.15);
+    else if (income <= 65550.0)
+        return (4057.5 + (0.275 * (income - 27050.0)));
+    else if (income <= 136750.0)
+        return (14645.0 + (0.305 * (income - 65550.0)));
+    else if (income <= 297350.0)
+        return (36361.0 + (0.355 * (income - 136750.0)));
+    else
+        return (93374.0 + (0.391 * (income - 297350.0)));
+}
+This text file is a test code to remove the white spaces in front of the code lines and to list the number of white spaces in the front.
